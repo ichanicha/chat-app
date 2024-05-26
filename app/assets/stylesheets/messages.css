@@ -50,7 +50,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .header-title {
   color: #333;
   font-size: 24px;
@@ -70,6 +69,13 @@
 .messages {
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
+  padding: 46px 40pc 0;
+  overflow: scroll;
+}
+.message{
+  margin: 10px 0 0 0;
+}
+=======
   padding: 46px 40px 0;
   overflow: scroll;
 }
@@ -77,7 +83,6 @@
 .message {
   margin: 10px 0 0 0;
 }
-
 .upper-message{
   display: flex;
 }
